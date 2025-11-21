@@ -9,11 +9,12 @@ export const config = {
         [
             'browserstack',
             {
-                browserstackLocal: false,
-                testObservability: true,
+                app: process.env.BROWSERSTACK_APP_ID,
+                browserstackLocal: true,
+                accessibility: false,
                 testObservabilityOptions: {
-                    projectName: "Appium BrowserStack Task8",
-                    buildName: "Appium BrowserStack Task8 Build",
+                    buildName: "appium browserstack task8",
+                    projectName: "Appium BrowserStack Task8"
                 },
             },
         ]
