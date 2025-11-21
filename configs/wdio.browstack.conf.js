@@ -1,31 +1,19 @@
-exports.config = {
-    specs: [
-        '../test/specs/**/*.js'
-    ],
-    logLevel: 'info',
-    bail: 0,
-    waitforTimeout: 10000,
-    connectionRetryTimeout: 120000,
-    connectionRetryCount: 3,
-    framework: 'mocha',
-    reporters: [['allure', { outputDir: 'allure-results' }]],
-    mochaOpts: {
-        ui: 'bdd',
-        timeout: 60000
-    },
+import { baseConfig } from './wdio.shared.conf.js';
+
+export const config = {
+    ...baseConfig,
+    hostname: 'hub.browserstack.com',
     user: process.env.BROWSERSTACK_USERNAME,
     key: process.env.BROWSERSTACK_ACCESS_KEY,
-    hostname: 'hub.browserstack.com',
     services: [
         [
             'browserstack',
             {
-                app: process.env.BROWSERSTACK_APP_ID,
-                browserstackLocal: true,
-                accessibility: false,
+                browserstackLocal: false,
+                testObservability: true,
                 testObservabilityOptions: {
-                    buildName: "appium browserstack task8",
-                    projectName: "Appium BrowserStack Task8"
+                    projectName: "Appium BrowserStack Task8",
+                    buildName: "Appium BrowserStack Task8 Build",
                 },
             },
         ]
@@ -53,4 +41,4 @@ exports.config = {
         }
     },
     maxInstances: 10
-}
+};
