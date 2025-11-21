@@ -1,5 +1,6 @@
 import Page from './page.js';
 
+const login_button = '~Login';
 const login_tab = `//android.view.ViewGroup[@content-desc="button-login-container"]/android.view.ViewGroup`;
 const signup_tab = `//android.view.ViewGroup[@content-desc="button-sign-up-container"]/android.view.ViewGroup`;
 const username_field = '~input-email';
@@ -12,7 +13,7 @@ const loginForm = '//android.widget.ScrollView[@content-desc="Login-screen"]/and
 class LoginPage extends Page {
 
     async openLogin() {
-        await this.click('~Login');
+        await this.click(login_button);
     }
 
     async switchToSignUp() {

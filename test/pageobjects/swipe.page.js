@@ -5,7 +5,7 @@ const swipe_header = '//android.widget.ScrollView[@content-desc="Swipe-screen"]/
 const first_card = `//android.widget.TextView[@text="FULLY OPEN SOURCE"]`;
 const second_card = `//android.widget.TextView[@text="GREAT COMMUNITY"]`;
 const scrollable_area = '//android.widget.ScrollView[@content-desc="Swipe-screen"]/android.view.ViewGroup';
-const hidden_text = 'android=new UiSelector().text("You found me!!!")';
+const hidden_text = '//android.widget.TextView[@text="You found me!!!"]';
 
 class SwipePage extends Page {
 

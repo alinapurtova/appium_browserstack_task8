@@ -27,7 +27,6 @@ describe('Login screen', () => {
         expect(await LoginPage.isRepeatPasswordDisplayed()).toBe(true);
         await LoginPage.fillSignUpForm(username, password, differentPassword);
         await LoginPage.submitSignUp();
-        const errorVisible = await LoginPage.isErrorDisplayed();
-        await expect(errorVisible).toBe(true);
+        expect(await LoginPage.isErrorDisplayed()).toBe(true);
     });
 });

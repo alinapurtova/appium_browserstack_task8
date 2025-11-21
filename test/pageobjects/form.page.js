@@ -7,8 +7,8 @@ const switch_button = '~switch';
 const switch_text = '~switch-text';
 const active_button = '~button-Active';
 const inactive_button = '~button-Inactive';
-const modal_message = 'android=new UiSelector().resourceId("android:id/message")';
-const ok_button = 'android=new UiSelector().resourceId("android:id/button1")';
+const modal_message = '//android.widget.TextView[@resource-id="android:id/message"]';
+const ok_button = '//android.widget.Button[@resource-id="android:id/button1"]';
 
 class FormPage extends Page {
 
