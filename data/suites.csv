@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6980","TC-002: Verify navigation between Login and Sign Up forms works correctly","Login screen","Sat Nov 22 08:14:12 UTC 2025","passed","Sat Nov 22 08:14:19 UTC 2025","","","",""
+"","3535","TC-005: Verify user can scroll to the bottom of the Swipe screen and reveal hidden text","Swipe screen","Sat Nov 22 08:14:19 UTC 2025","passed","Sat Nov 22 08:14:22 UTC 2025","","","",""
+"","6853","Tc-004: Verify user can swipe through carousel cards on the Swipe screen","Swipe screen","Sat Nov 22 08:14:12 UTC 2025","passed","Sat Nov 22 08:14:19 UTC 2025","","","",""
+"","9549","TC-003: Verify Sign Up form with mismatched passwords","Login screen","Sat Nov 22 08:14:19 UTC 2025","passed","Sat Nov 22 08:14:29 UTC 2025","","","",""
+"","14967","TC-001: Verify the form on the Forms screen","Forms screen","Sat Nov 22 08:14:44 UTC 2025","passed","Sat Nov 22 08:14:59 UTC 2025","","","",""

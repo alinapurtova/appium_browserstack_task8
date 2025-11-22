@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: TC-003: Verify Sign Up form with mismatched passwords\",\"level\":\"info\"}}",
+  "args": []
+}

@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: TC-002: Verify navigation between Login and Sign Up forms works correctly\",\"level\":\"info\"}}",
+  "args": []
+}

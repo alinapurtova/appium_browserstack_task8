@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: TC-001: Verify the form on the Forms screen\",\"level\":\"info\"}}",
+  "args": []
+}

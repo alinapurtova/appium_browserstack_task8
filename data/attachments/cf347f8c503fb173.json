@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.ScrollView[@content-desc=\"Login-screen\"]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]"
+}

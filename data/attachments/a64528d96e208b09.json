@@ -1,0 +1,10 @@
+{
+  "script": "mobile: swipeGesture",
+  "args": [
+    {
+      "elementId": "00000000-0000-0df7-ffff-ffff00000045",
+      "direction": "up",
+      "percent": 0.9
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: Tc-004: Verify user can swipe through carousel cards on the Swipe screen\",\"level\":\"info\"}}",
+  "args": []
+}
