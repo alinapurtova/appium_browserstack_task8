@@ -5,7 +5,7 @@ const fakeText = faker.internet.displayName();
 const switchText = 'Click to turn the switch OFF';
 
 describe('Forms screen', () => {
-    it('TC-001: Verify user can fill the form and interact with modal window on the Forms screen', async () => {
+    it('TC-001: Verify the form on the Forms screen', async () => {
         await FormPage.openForms();
         await FormPage.fillInput(fakeText);
         expect(await FormPage.getInputResult()).toBe(fakeText);

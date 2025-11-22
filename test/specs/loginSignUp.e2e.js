@@ -19,7 +19,7 @@ describe('Login screen', () => {
         expect(await LoginPage.isRepeatPasswordDisplayed()).toBe(false);
     });
 
-    it('TC-003: Verify error message when passwords do not match during Sign Up', async () => {
+    it('TC-003: Verify Sign Up form with mismatched passwords', async () => {
         await LoginPage.openLogin();
         await LoginPage.switchToSignUp();
         expect(await LoginPage.isLoginFormDisplayed()).toBe(true);
